@@ -1,20 +1,40 @@
-.gallery {
+body {
+    width: 100%;
+    background-image: url("../image/back.jpg");
+    background-size: 100%;
+}
+.gallery{
+    margin-bottom: 30px;
     width: 100%;
 }
-
 .gallery__title{
-
+    font-weight: bold;
+    font-style:normal;
+    font-size: 42px;
+    text-align: center;
+    color: azure;
+    margin: 0 0 25px 0;
 }
 
 .gallery__container{
     width: 100%;
+    display: flex;
+    flex-direction:column;
+
 }
 
 .block div{
     width: 20%;
-    height: 20%;
-    margin-top: 20px;
-    margin-right: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+.photo img{
+    border: 3px solid #fff;
+}
+
+.photo img:hover{
+    border: 3px solid #034f80;
 }
 
 img{
@@ -25,4 +45,5 @@ img{
 .block {
     width: 100%;
     display:flex;
+    justify-content:  space-around;
 }
