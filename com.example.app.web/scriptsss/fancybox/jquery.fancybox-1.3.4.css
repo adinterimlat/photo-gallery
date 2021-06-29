@@ -344,7 +344,6 @@
 }
 
 #fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_loading.png', sizingMethod='scale'); }
-
 /* IE6, IE7, IE8 */
 
 .fancybox-ie .fancybox-bg { background: transparent !important; }
