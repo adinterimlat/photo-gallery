@@ -1,8 +1,0 @@
-ares-device --device-list
-ares-setup-device --listfull
-ares-generate samleApp
-ares-package samleApp
-ares-install --device emulator com.domain.app_1.0.0_all.ipk
-ares-install --device emulator --list
-ares-launch --device emulator com.domain.app
-ares-launch --device emulator --close com.domain.app
