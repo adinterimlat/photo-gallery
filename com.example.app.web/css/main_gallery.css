@@ -1,0 +1,28 @@
+.gallery {
+    width: 100%;
+}
+
+.gallery__title{
+
+}
+
+.gallery__container{
+    width: 100%;
+}
+
+.block div{
+    width: 20%;
+    height: 20%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.block {
+    width: 100%;
+    display:flex;
+}
